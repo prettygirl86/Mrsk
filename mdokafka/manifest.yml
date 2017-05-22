@@ -1,0 +1,10 @@
+---
+applications:
+- name: ao-stream
+  memory: 1024M
+  path: target/mdokafka-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+  domain: mybluemix.net
+  disk_quota: 512M
+  instances: 1
+    
